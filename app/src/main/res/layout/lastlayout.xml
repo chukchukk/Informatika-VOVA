@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/colorBack"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/viborColor"
+        android:gravity="center"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="10mm"
+        android:textSize="35dp"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Vibor" />
+
+    <EditText
+        android:id="@+id/textColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Белые/ черные (недопустимо другое написание)" />
+
+    <Button
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Вывод результата" />
+
+    <TextView
+        android:id="@+id/vivod"
+        android:layout_width="match_parent"
+        android:textColor="@color/colorBlack"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Informatika</string>
+    <string name="privet">Лабораторная работа №4</string>
+    <string name="Start"> Начать работу</string>
+    <string name="Vibor">Введите цвет клеток (белые или черные)</string>
+</resources>
